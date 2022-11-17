@@ -11,7 +11,16 @@ function App() {
   */
 
   function updateCount(){
-    setCount(count + 1);
+    setCount((curr) => {
+      return curr + 1;
+    });
+    setCount((curr) => {
+      return curr + 1;
+    });
+    setCount((curr) => {
+      return curr + 1;
+    });
+    
   }
 
   return (
