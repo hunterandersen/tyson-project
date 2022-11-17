@@ -11,9 +11,7 @@ function App() {
   */
 
   function updateCount(){
-    setCount((prev) => {
-      return prev + 1;
-    });
+    setCount(count + 1);
   }
 
   return (
